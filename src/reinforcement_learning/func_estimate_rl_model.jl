@@ -1,6 +1,6 @@
 ## 拟合估计模型参数
 using DataFrames, GLM, StatsBase
-include("/Users/dddd1007/project2git/cognitive_control_model/Models/rl_model_estimate_by_stim/rl_models.jl")
+include("rl_models.jl")
 
 # 构建输入数据结构体以实现多重派发
 
